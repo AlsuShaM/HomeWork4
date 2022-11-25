@@ -5,9 +5,9 @@ public static class Library
 
 
     // метод, который создаёт массив
-    public static int[] CreateArray(int count)
+    public static int[] CreateArray(int array)
     {
-     return new int[count];
+     return new int[array];
     }
 
     // заполняет массив
@@ -21,7 +21,7 @@ public static class Library
         }
     }
 
-    // печать массив
+    // печать массива
     public static string PrintGood(int[] numbers)
     {
         int size = numbers.Length;
